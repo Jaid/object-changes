@@ -4,7 +4,7 @@
 Compares two objects and returns the differences.
 
 <a href="https://raw.githubusercontent.com/Jaid/object-changes/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/object-changes?style=flat-square&color=success" alt="License"/></a>  
-<a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/commits-since/Jaid/object-changes/v0.1.0?style=flat-square&logo=github&color=success" alt="Commits since v0.1.0"/></a> <a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/last-commit/Jaid/object-changes?style=flat-square&logo=github&color=red" alt="Last commit"/></a> <a href="https://github.com/Jaid/object-changes/issues"><img src="https://img.shields.io/github/issues/Jaid/object-changes?style=flat-square&logo=github&color=red" alt="Issues"/></a>  
+<a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/commits-since/Jaid/object-changes/v1.0.0?style=flat-square&logo=github&color=success" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/last-commit/Jaid/object-changes?style=flat-square&logo=github&color=red" alt="Last commit"/></a> <a href="https://github.com/Jaid/object-changes/issues"><img src="https://img.shields.io/github/issues/Jaid/object-changes?style=flat-square&logo=github&color=red" alt="Issues"/></a>  
 <a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/v/object-changes?style=flat-square&logo=npm&label=latest%20version&color=success" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/object-changes/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/object-changes?style=flat-square&logo=npm&color=red" alt="Dependents"/></a> <a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/dm/object-changes?style=flat-square&logo=npm&color=red" alt="Downloads"/></a>
 
 
@@ -33,15 +33,15 @@ const result = objectChanges(previousObject, nextObject)
 ## Installation
 <a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/badge/npm-object--changes-C23039?style=flat-square&logo=npm" alt="object-changes on npm"/></a>
 ```bash
-npm install --save object-changes@^0.1.0
+npm install --save object-changes@^1.0.0
 ```
 <a href="https://yarnpkg.com/package/object-changes"><img src="https://img.shields.io/badge/Yarn-object--changes-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="object-changes on Yarn"/></a>
 ```bash
-yarn add object-changes@^0.1.0
+yarn add object-changes@^1.0.0
 ```
 <a href="https://jsdelivr.com/package/npm/object-changes/"><img src="https://img.shields.io/badge/jsDelivr-object--changes-orange?style=flat-square&logo=html5&logoColor=white" alt="object-changes on jsDelivr"/></a> <a href="https://unpkg.com/browse/object-changes/"><img src="https://img.shields.io/badge/UNPKG-object--changes-orange?style=flat-square&logo=html5&logoColor=white" alt="object-changes on UNPKG"/></a>
 ```html
-<script src="https://cdn.jsdelivr.net/npm/object-changes@0.1.0/index.js"/>
+<script src="https://cdn.jsdelivr.net/npm/object-changes@1.0.0/index.js"/>
 ```
 
 
@@ -54,7 +54,7 @@ Open a browser's JavaScript console and execute:
 ```javascript
 const scriptElement = document.createElement("script");
 scriptElement.setAttribute("type", "text/javascript");
-scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/object-changes@0.1.0/index.js");
+scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/object-changes@1.0.0/index.js");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
