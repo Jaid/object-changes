@@ -1,11 +1,15 @@
 # object-changes
 
 
-Compares two objects and returns the differences.
+<a href="https://raw.githubusercontent.com/Jaid/object-changes/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/object-changes?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/object-changes/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fobject-changes%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/commits-since/Jaid/object-changes/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/last-commit/Jaid/object-changes?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/object-changes/issues"><img src="https://img.shields.io/github/issues/Jaid/object-changes?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/v/object-changes?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/object-changes/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/object-changes?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/dm/object-changes?style=flat-square&logo=npm" alt="Downloads"/></a>
 
-<a href="https://raw.githubusercontent.com/Jaid/object-changes/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/object-changes?style=flat-square&color=success" alt="License"/></a>  
-<a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/commits-since/Jaid/object-changes/v1.0.0?style=flat-square&logo=github&color=success" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/last-commit/Jaid/object-changes?style=flat-square&logo=github&color=red" alt="Last commit"/></a> <a href="https://github.com/Jaid/object-changes/issues"><img src="https://img.shields.io/github/issues/Jaid/object-changes?style=flat-square&logo=github&color=red" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/v/object-changes?style=flat-square&logo=npm&label=latest%20version&color=success" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/object-changes/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/object-changes?style=flat-square&logo=npm&color=red" alt="Dependents"/></a> <a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/dm/object-changes?style=flat-square&logo=npm&color=red" alt="Downloads"/></a>
+**Compares two objects and returns the differences.**
+
+
+
+
 
 
 
@@ -30,6 +34,8 @@ const result = objectChanges(previousObject, nextObject)
 
 
 
+
+
 ## Installation
 <a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/badge/npm-object--changes-C23039?style=flat-square&logo=npm" alt="object-changes on npm"/></a>
 ```bash
@@ -45,60 +51,37 @@ yarn add object-changes@^1.0.0
 ```
 
 
-## Try it out
 
 
 
-Open a browser's JavaScript console and execute:
 
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type", "text/javascript");
-scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/object-changes@1.0.0/index.js");
-document.querySelector("head").appendChild(scriptElement);
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/object-changes.git
+cd object-changes
+npm install
 ```
-
-object-changes is now stored in the global variable `objectChanges`. The following console expression should return something other than `"undefined"`.
-
-```javascript
-typeof objectChanges.default
+Testing:
+```bash
+npm run test:dev
 ```
-
-<a name="module_object-changes"></a>
-
-## Reference
-<a name="exp_module_object-changes--module.exports"></a>
-
-### module.exports([compareValue]) ⇒ <code>Object</code> ⏏
-**Kind**: Exported function  
-**Returns**: <code>Object</code> - Seconds passed since Unix epoch (01 January 1970)  
-
-| Param | Type |
-| --- | --- |
-| [compareValue] | <code>number</code> | 
-
-**Example**  
-```javascript
-import objectChanges from "object-changes"
-const result = objectChanges({
-  unchanged: 2,
-  changed: 2
-},
-{ unchanged: 2,
-  changed: 3
-})
-// Result: {changed: 3}
+Testing in production environment:
+```bash
+npm run test
 ```
-
-
-
 
 
 ## License
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
