@@ -1,9 +1,9 @@
 # object-changes
 
 
-<a href="https://raw.githubusercontent.com/Jaid/object-changes/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/object-changes?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/object-changes/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fobject-changes%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/commits-since/Jaid/object-changes/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/object-changes/commits"><img src="https://img.shields.io/github/last-commit/Jaid/object-changes?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/object-changes/issues"><img src="https://img.shields.io/github/issues/Jaid/object-changes?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/v/object-changes?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/object-changes/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/object-changes?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/dm/object-changes?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/object-changes/master/license.txt"><img src="https://img.shields.io/github/license/jaid/object-changes?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor object-changes"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/object-changes/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fobject-changes%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/object-changes/commits"><img src="https://img.shields.io/github/commits-since/jaid/object-changes/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/jaid/object-changes/commits"><img src="https://img.shields.io/github/last-commit/jaid/object-changes?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/object-changes/issues"><img src="https://img.shields.io/github/issues/jaid/object-changes?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/v/object-changes?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/object-changes/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/object-changes?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/object-changes"><img src="https://img.shields.io/npm/dm/object-changes?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Compares two objects and returns the differences.**
 
@@ -56,14 +56,13 @@ yarn add object-changes@^1.0.0
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/object-changes.git
+git clone git@github.com:jaid/object-changes.git
 cd object-changes
 npm install
 ```
