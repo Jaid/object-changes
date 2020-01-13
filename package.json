@@ -30,5 +30,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "object-changes",
-  "description": "Compares two objects and returns the differences."
+  "description": "Compares two objects and returns the differences.",
+  "funding": "https://github.com/sponsors/jaid"
 }
