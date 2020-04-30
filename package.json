@@ -35,5 +35,20 @@
     "url": "https://github.com/jaid/object-changes"
   },
   "homepage": "https://github.com/Jaid/object-changes",
-  "keywords": []
+  "keywords": [
+    "changes",
+    "compare",
+    "comparison",
+    "diff",
+    "difference",
+    "differences",
+    "difftool",
+    "lib",
+    "library",
+    "object",
+    "object-changes",
+    "object-comparison",
+    "util",
+    "utility"
+  ]
 }
