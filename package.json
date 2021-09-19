@@ -50,5 +50,6 @@
     "object-comparison",
     "util",
     "utility"
-  ]
+  ],
+  "type": "module"
 }
